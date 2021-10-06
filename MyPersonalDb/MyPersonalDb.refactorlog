@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="0dcb9d55-7e0f-4a3e-a686-123a097f32ad" ChangeDateTime="10/06/2021 12:47:46">
+    <Property Name="ElementName" Value="[dbo].[Colors].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Colors]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ColorId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e4e8bad1-784a-4d4f-893c-f1cb9c150b8f" ChangeDateTime="10/06/2021 12:55:53">
+    <Property Name="ElementName" Value="[dbo].[Brands].[ColorId]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Brands]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BrandId" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="29f7e7d5-e037-4007-ad65-c73ccbece460" ChangeDateTime="10/06/2021 12:55:59">
+    <Property Name="ElementName" Value="[dbo].[Brands].[ColorName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Brands]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="BrandName" />
+  </Operation>
+</Operations>
